@@ -68,7 +68,7 @@
 			top:-3px;
 		}
 		
-		@media screen and (max-width: 580px){
+		@media screen and (max-width: 400px){
 			nav ul li{
 				box-sizing: border-box;
 				width: 100%;
