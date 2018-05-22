@@ -1,0 +1,111 @@
+	
+		p{
+		}
+		
+		h1{
+			text-align:center;
+		}
+		h2{
+			line-height: 40px;
+			font-family: Bookman;
+		}
+		header{
+			background: #1363c4;
+			width: 100%;
+			padding: 40px 0;
+			color:white;
+			text-align: center;
+			size: 20px;
+			
+			
+		}
+		header h1{
+			color:white;
+			font-family: Bookman;
+		}
+		nav ul{
+			background-color: #dadada;
+			overflow:hidden;
+			padding: 0;
+			text-align: center;
+			margin:0;
+
+		}
+		nav ul li{
+			display: inline-block;
+			padding: 20px;
+		}
+		nav ul li:hover{
+			background-color: #aaaaaa;
+		}
+		
+		body{
+			background-color: #7a9ac1;
+			color: black;
+			padding:0;
+			margin:0;
+		}
+		.Menuhandle {
+			width: 100%;
+			background: #bfbfbf;
+			text-align: left;
+			font-size: 20px;
+			box-sizing: border-box;
+			padding: 20px 10px;
+			cursor: pointer;
+			color: black;
+			display:none;
+
+			
+		}
+		
+		.Menu_icon{
+			width: 30px;
+			height: 30px;
+			position:relative;
+			text-align: right;
+			float:right;
+			top:-3px;
+		}
+		
+		@media screen and (max-width: 580px){
+			nav ul li{
+				box-sizing: border-box;
+				width: 100%;
+				padding: 15px;
+			}
+			.navbar.responsive li{
+				float: none;
+				text-align: left;
+				display: block;
+			}
+			.navbar li{
+				display: none;
+				
+				
+			}
+			.Menuhandle{
+				display: block;
+			}
+		}
+
+		.contactInfo {
+			text-align: center;
+			
+			color:white;
+			font-size:20px;
+		}
+
+		.sub{
+			color:white;
+			font-family:impact;
+			letter-spacing: 1px;
+			text-shadow: 3px 3px black;
+			font-size:30pt;
+			
+		}
+		.goal{
+			font-family:Bookman;
+			font-size:13pt;
+		}
+		
